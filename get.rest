@@ -1,0 +1,4 @@
+GET  http://localhost:3001/api/persons
+Content-Type: application/json
+Date: {{$localDatetime rfc1123|iso8601 [offset option]}}
+
